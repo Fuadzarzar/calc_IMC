@@ -11,8 +11,8 @@ const cal_imc = weight / (height * height);
 /* Condicionais que verificam se a pessoa está acima do peso. */
 
 if (cal_imc >= 30) {
-	console.log(`${name} você está acima do peso.`);
+	console.log(`${name} você está acima do peso, pois seu IMC é ${cal_imc}.`);
 }
 if (cal_imc < 29.9) {
-	console.log(`${name} você não está acima do peso.`);
+	console.log(`${name} você não está acima do peso e seu IMC é ${cal_imc}.`);
 }
